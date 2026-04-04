@@ -1,0 +1,10 @@
+# Ambiente virtual
+vision/
+.vision/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# settings.json
+*.json
