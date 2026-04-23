@@ -12,7 +12,7 @@
 
 ---
 
-## Project Concepts:
+## Conceitos de projeto:
   * **Visão Computacional e Rastreamento:** Utiliza a biblioteca **OpenCV** para a manipulação da câmera corporativa e a moderna API de *Tasks Vision* do **MediaPipe** para o rastreamento dos marcos (landmarks) da mão.
   * **Controle de Áudio:** A biblioteca **Pycaw** atua como a ponte de comunicação direta com a interface de áudio do Windows.
   * **Matemática Aplicada (A Mecânica):** O algoritmo localiza 21 pontos (nós) na sua mão. A lógica principal aplica o cálculo da hipotenusa (distância euclidiana) entre as coordenadas `(x, y)` do Nó 4 (Polegar) e do Nó 8 (Indicador). 
@@ -20,7 +20,7 @@
 
 ---
 
-## How to play:
+## Como testar:
   * O projeto foi desenvolvido e testado utilizando Python 3.11
   * Importante: A nova API do MediaPipe exige o arquivo de modelo pré-treinado (hand_landmarker.task). Certifique-se de que ele esteja na mesma pasta dos scripts
   * Abra o seu terminal e clone o repositório: `git clone https://github.com/GlaucoCiprianoMoreira/Gesture-Volume-Control.git`
